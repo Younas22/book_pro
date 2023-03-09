@@ -10,6 +10,7 @@
 ===========================*/
 
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
+
 html {
     scroll-behavior: smooth;
 }
@@ -256,9 +257,11 @@ p {
     0% {
         transform: translateY(30px);
     }
+
     50% {
         transform: translateY(-30px);
     }
+
     100% {
         transform: translateY(30px);
     }
@@ -370,24 +373,31 @@ p {
     12.5% {
         transform: rotate(135deg);
     }
+
     25% {
         transform: rotate(270deg);
     }
+
     37.5% {
         transform: rotate(405deg);
     }
+
     50% {
         transform: rotate(540deg);
     }
+
     62.5% {
         transform: rotate(675deg);
     }
+
     75% {
         transform: rotate(810deg);
     }
+
     87.5% {
         transform: rotate(945deg);
     }
+
     to {
         transform: rotate(1080deg);
     }
@@ -397,9 +407,11 @@ p {
     0% {
         transform: rotate(130deg);
     }
+
     50% {
         transform: rotate(-5deg);
     }
+
     to {
         transform: rotate(130deg);
     }
@@ -409,9 +421,11 @@ p {
     0% {
         transform: rotate(-130deg);
     }
+
     50% {
         transform: rotate(5deg);
     }
+
     to {
         transform: rotate(-130deg);
     }
@@ -613,6 +627,7 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
+
     .navbar-nav .nav-item a:hover,
     .navbar-nav .nav-item a.active {
         color: #5F6FFF;
@@ -628,6 +643,7 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
+
     .navbar-nav .nav-item a:hover::after,
     .navbar-nav .nav-item a.active::after {
         background: #5F6FFF;
@@ -770,7 +786,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     height: 820px;
     display: flex;
     align-items: center;
-/*    background-image: url("../images/hero/hero-bg.svg");*/
+    /*    background-image: url("../images/hero/hero-bg.svg");*/
     background-color: black;
     background-size: cover;
     background-position: bottom center;
@@ -1346,6 +1362,36 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
     transition: all 0.3s ease-out 0s;
 }
 
+/* //////////////////////////////////////// */
+.nav-link {
+    color: #fff;
+    /* Set the text color of the buttons */
+    border: 1px solid #dc3545 !important;
+    /* Set the border color of the buttons */
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    /* Set the background color of the buttons */
+    padding: 13px !important;
+    /* Set the top and bottom padding of the buttons */
+    font-weight: bold;
+    /* Set the font weight of the buttons */
+}
+
+.nav-link:hover {
+    background-color: #dc3545 !important;
+    /* Set the background color of the buttons on hover */
+    color: rgba(0, 0, 0, 0.7);
+    /* Set the text color of the buttons on hover */
+}
+
+.nav-link.active {
+    background-color: #dc3545 !important;
+    /* Set the background color of the active button */
+    color: rgba(0, 0, 0, 0.7) !important;
+    /* Set the text color of the active button */
+}
+
+/* /////////////////////////////////////// */
+
 /* ========================
 		TESTIMONIAL CSS
 =========================== */
@@ -1573,7 +1619,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 
 .footer {
     background-image: url("../images/footer/footer-bg.svg");
-    background-color:black;
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1708,10 +1754,10 @@ only screen and (min-width: 768px) and (max-width: 991px),
     display: flex;
     align-items: center;
     justify-content: center;
-/*    margin-left: 125px;*/
+    /*    margin-left: 125px;*/
 }
 
-.footer_logo{
+.footer_logo {
     width: 100px;
     height: 100px;
     background: rgba(255, 255, 255, 0.1);
@@ -1728,8 +1774,8 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .book-footer {
-/*    background-image: url("../images/footer/footer-bg.svg");*/
-    background-color:black;
+    /*    background-image: url("../images/footer/footer-bg.svg");*/
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1864,10 +1910,10 @@ only screen and (min-width: 768px) and (max-width: 991px),
     display: flex;
     align-items: center;
     justify-content: center;
-/*    margin-left: 125px;*/
+    /*    margin-left: 125px;*/
 }
 
-.footer_logo{
+.footer_logo {
     width: 100px;
     height: 100px;
     background: rgba(255, 255, 255, 0.1);
@@ -1883,16 +1929,17 @@ only screen and (min-width: 768px) and (max-width: 991px),
     background: #00B06E;
 }
 
-.text{
+.text {
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
-.text p{
-    
+.text p {
+
     font-size: 20px;
     font-weight: bold;
 }
+
 /* ======================
     DEFAULT CSS
 ========================= */
@@ -2630,84 +2677,84 @@ only screen and (min-width: 768px) and (max-width: 991px),
 
 
 .content {
-  width: 80%;
-  padding: 20px;
-  margin: 0 auto;
-  padding: 0 60px 0 0;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    padding: 0 60px 0 0;
 }
 
 .centerplease {
-  margin: 0 auto;
-  max-width: 270px;
-  font-size: 40px;
+    margin: 0 auto;
+    max-width: 270px;
+    font-size: 40px;
 }
 
 .question {
-  color: black;
-  position: relative;
-  background: white;
-  margin: 0;
-  padding: 10px 10px 10px 50px;
-  display: block;
-  width:100%;
-  cursor: pointer;
-  border-radius: 25px;
+    color: black;
+    position: relative;
+    background: white;
+    margin: 0;
+    padding: 10px 10px 10px 50px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 25px;
 }
 
 .answers {
-  font-weight:300;
-/*  background: #f2f2f2;*/
-  padding: 0px 15px;
-  margin: 0px 0;
-  height: 0;
-  overflow: hidden;
-  z-index: -1;
-/*  position: relative;*/
-  opacity: 0;
-  -webkit-transition: .7s ease;
-  -moz-transition: .7s ease;
-  -o-transition: .7s ease;
-  transition: .7s ease;
-  border-radius: 25px;
-  color: white;
+    font-weight: 300;
+    /*  background: #f2f2f2;*/
+    padding: 0px 15px;
+    margin: 0px 0;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    /*  position: relative;*/
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -moz-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+    border-radius: 25px;
+    color: white;
 }
 
-.questions:checked ~ .answers{
-  height: auto;
-  opacity: 1;
-  padding: 15px;
+.questions:checked~.answers {
+    height: auto;
+    opacity: 1;
+    padding: 15px;
 }
 
 .plus {
-  color:black;
-  position: absolute;
-  margin-left: 18px;
-  margin-top: 5px;
-  z-index: 5;
-  font-size: 2em;
-  line-height: 100%;
-  -webkit-user-select: none;    
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  -webkit-transition: .3s ease;
-  -moz-transition: .3s ease;
-  -o-transition: .3s ease;
-  transition: .3s ease;
+    color: black;
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 5px;
+    z-index: 5;
+    font-size: 2em;
+    line-height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    transition: .3s ease;
 }
 
-.questions:checked ~ .plus {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+.questions:checked~.plus {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .questions {
-  display: none;
+    display: none;
 }
 
-.faq{
+.faq {
     margin-bottom: 20px;
 }

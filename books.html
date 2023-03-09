@@ -1,596 +1,934 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <title>Blaze | Bootstrap 5 SaaS Landing Page</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
-        <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta2.min.css" />
-        <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-        <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-        <link rel="stylesheet" href="assets/css/animate.css" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-    </head>
-    <body style="background-color: black;">
-        <!--[if lte IE 9]>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Blaze | Bootstrap 5 SaaS Landing Page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
+    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta2.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body style="background-color: black;">
+    <!--[if lte IE 9]>
         <p class="browserupgrade">
             You are using an <strong>outdated</strong> browser. Please
             <a href="https://browsehappy.com/">upgrade your browser</a> to improve
             your experience and security.
         </p>
         <![endif]-->
-        <div class="preloader">
-            <div class="loader">
-                <div class="spinner">
-                    <div class="spinner-container">
-                        <div class="spinner-rotator">
-                            <div class="spinner-left">
-                                <div class="spinner-circle"></div>
+    <div class="preloader">
+        <div class="loader">
+            <div class="spinner">
+                <div class="spinner-container">
+                    <div class="spinner-rotator">
+                        <div class="spinner-left">
+                            <div class="spinner-circle"></div>
+                        </div>
+                        <div class="spinner-right">
+                            <div class="spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo/logo.svg" alt="Logo" />
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <div class="ms-auto">
+                                    <ul id="nav" class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                            <a class="page-scroll active" href="#home">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#testimonials">Testimonials</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#books">Books</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="page-scroll" href="#faq">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="spinner-right">
-                                <div class="spinner-circle"></div>
+                            <div class="header-btn">
+                                <a href="#call" class="main-btn btn-hover">Call: +92 846823648</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="book-hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-10">
+                    <div class="hero-content">
+                        <h1 style="font-size: 35px;">Transform Your Digital Career with Our E-Book and Notion Notes
+                            Library</h1>
+                        <p>Our resources cover topics such as social media growth, marketing, SEO, and web development,
+                            providing you with the knowledge and tools you need to excel in your career. Start Your
+                            Digital Journey Today</p>
+                        <a href="#0" class="main-btn btn-hover bg-danger text-white">Buy Now</a>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 offset-xxl-1">
+                    <div class="hero-image text-center text-lg-start">
+                        <img src="assets/images/hero/New Project (2).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="feature-section pb-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11">
+                    <div class="section-title text-center mb-4">
+                        <h2 class="text-white">Satisfied Users</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row text-center">
+                <div class="col-lg-8 col-md-8 offset-lg-2 offset-md-2">
+                    <p class="mb-5 text-white">Find out Why Our Customers Keep Coming Back: Read Their Testimonials</p>
+                </div>
+            </div>
+
+
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"I highly recommend the '100 Resources for Web Designers' e-book by Younas
+                                Mahmood. It's an invaluable resource for anyone in the web design field."</p>
+                            <h4 class="mt-3">Sarah<p>Web Designer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star text-warning"></i>
+                            </div>
+                            <p class="mt-3">"The '100 Resources for Web Developers' e-book by Younas Mahmood has been a
+                                game-changer for me. It's packed with useful tools and resources that have helped me
+                                improve my skills and efficiency as a web developer."</p>
+                            <h4 class="mt-3">Shahid<p>Web Developer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"Whether you're a beginner or an experienced professional, the '100
+                                Resources for Everyone' e-book is a must-have. It covers a wide range of topics and
+                                provides valuable resources for a variety of purposes."</p>
+                            <h4 class="mt-3">Amjid<p>Freelancer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"As someone who's always looking for remote work opportunities, the '100
+                                Resources for Remote Jobs' e-book by Younas Mahmood has been incredibly helpful. It's
+                                given me the tools and resources I need to find and apply to remote jobs with
+                                confidence." </p>
+                            <h4 class="mt-3">Sam<p>Freelancer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"If you're a JS developer, you need the '100 Resources for JS Developers'
+                                e-book in your library. It's full of useful tools and resources that will help you
+                                improve your skills and stay up-to-date with the latest trends in the field." </p>
+                            <h4 class="mt-3">Dave<p>JS Developer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"The '100 Resources for Free APIs' e-book by Younas Mahmood is an absolute
+                                must-have for developers. It features a wide range of APIs that are available for free,
+                                as well as information on how to use them and the limitations of each API."</p>
+                            <h4 class="mt-3">Smith<p>Developer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star text-warning"></i>
+                            </div>
+                            <p class="mt-3">"I've found the '100 Resources' series of e-books by Younas Mahmood to be an
+                                invaluable resource for my professional development. Whether I'm looking to improve my
+                                web design skills, find remote work, or access free APIs, these e-books have something
+                                for everyone." </p>
+                            <h4 class="mt-3">Tom<p>Professional</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"The '100 Resources for JS Developers' book by Younas Mahmood is a must-have
+                                for any JavaScript developer. It is filled with useful resources and information on the
+                                latest trends in the field."</p>
+                            <h4 class="mt-3">Rachel<p>JS developer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"The '100 Resources for Web Designers' book by Younas Mahmood is a game
+                                changer for me. It has helped me improve my skills and stay up-to-date with the latest
+                                trends in web design." </p>
+                            <h4 class="mt-3">Shakeel<p>web designer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"I highly recommend the '100 Resources for Web Developers' book by Younas
+                                Mahmood to any developer looking to enhance their skills and knowledge. It has been an
+                                invaluable resource for me."</p>
+                            <h4 class="mt-3">John<p>web developer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                            </div>
+                            <p class="mt-3">"As a student, I found the '100 Resources for Everyone' book by Younas
+                                Mahmood to be extremely helpful in learning about various topics and finding useful
+                                resources online.</p>
+                            <h4 class="mt-3">Siddique<p>Student</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="single-feature">
+                        <div class="feature-content bg-white p-2">
+                            <div class="p-2">
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star-filled text-warning"></i>
+                                <i class="lni lni-star text-warning"></i>
+                            </div>
+                            <p class="mt-3">"The '100 Resources for Remote Jobs' book by Younas Mahmood has been a
+                                lifesaver for me. It has helped me find numerous remote job opportunities and provided
+                                valuable tips for succeeding in a remote work environment."</p>
+                            <h4 class="mt-3">Alex<p>Freelancer</p>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Book list -->
+    <section id="books" class="team-section text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11">
+                    <div class="section-title text-center mb-60">
+                        <h2>e-Resources</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 offset-lg-2 offset-md-2 text-center">
+                    <p class="mb-5 text-white">Take the Next Step in Your Professional Growth with Our E-book</p>
+                </div>
+            </div>
+            <!-- /////////////////////////////////// -->
+            <div class="row justify-content-center">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-11">
+                    <ul class="nav nav-pills mb-5 justify-content-between" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Home</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Profile</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Contact</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Writing-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Writing" type="button" role="tab" aria-controls="pills-Writing"
+                                aria-selected="false">Writing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Coding-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Coding" type="button" role="tab" aria-controls="pills-Coding"
+                                aria-selected="false">Coding</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-Marketing-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-Marketing" type="button" role="tab"
+                                aria-controls="pills-Marketing" aria-selected="false">Marketing</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-allbuttons-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-allbuttons" type="button" role="tab"
+                                aria-controls="pills-allbuttons" aria-selected="false">Allbuttons</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers home</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Profile</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers contact</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Writing" role="tabpanel" aria-labelledby="pills-Writing-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Writing</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Coding" role="tabpanel" aria-labelledby="pills-Coding-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Coding</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Marketing" role="tabpanel" aria-labelledby="pills-Marketing-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Marketing</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-allbuttons" role="tabpanel" aria-labelledby="pills-allbuttons-tab">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers home</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Profile</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers contact</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Writing</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Coding</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="single-team">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                        alt="Card image cap">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark">Become A Web Designers Marketing</h4>
+                                        <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                            style="border: none; border-radius: 1.25rem;">Buy Now</a>
+                                        <a href="details.html" class="btn btn-dark text-white mt-3"
+                                            style="border: none; border-radius: 1.25rem; background-color: black;">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- ///////////////////////////////// -->
+
+            <div class=" row justify-content-center">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="single-team">
+                        <div class="card text-center">
+                            <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title text-dark">Become A Web Designers</h4>
+                                <a href="#" class="btn btn-dark text-white mt-3 bg-danger"
+                                    style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
+
+                                <a href="details.html" class="btn btn-dark text-white mt-3"
+                                    style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- FAQ -->
+    <section id="faq" class="feature-section text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11">
+                    <div class="section-title text-center">
+                        <h2>FAQ</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-8 offset-lg-2 offset-md-2">
+                    <div class="single-feature">
+                        <div class="feature-content">
+                            <div class="mt-5">
+
+                                <!-- __________________________ SECTIONS ___________________________ -->
+                                <h5 class="text-center_ mb-4 mt-4">How to get, Payment options, PDF Books or hard Copy
+                                    and much more.</h5>
+                                <div class="faq">
+                                    <input type="checkbox" id="question9" name="q" class="questions">
+                                    <div class="plus">+</div>
+                                    <label for="question9" class="question">
+                                        How do I get an e-book?
+                                    </label>
+                                    <div class="answers">
+                                        <p class="text-white">There are Two ways to get an e-book:
+                                            <br>
+                                            <b>1) You can create account and order any book which you want.</b>
+
+                                            <br>Step 1: Create account
+                                            <br>Step 2: Select books for enable to download
+                                            <br>Step 3: Make payment and get screenshot
+                                            <br>Step 4: Upload the Payment screenshot and wait 30 minutes till enable to
+                                            download option on the website for you.
+
+                                            <br><br>
+                                            <b>2) You can get directly through email or whatsapp message.</b>
+
+                                            <br>Step 1: Make payment and get screenshot
+                                            <br>Step 2: Send books name and payment screenshot via whatsapp or email
+                                            <br>Step 3: Wait 30 minutes at least! you will get team response
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="faq">
+                                    <input type="checkbox" id="question10" name="q" class="questions">
+                                    <div class="plus">+</div>
+                                    <label for="question10" class="question">
+                                        Payment options?
+                                    </label>
+                                    <div class="answers">
+                                        <p class="text-white">There are 4 Payment Option:
+                                            <br>
+                                            <b>1) PAYONEER</b>
+
+                                            <br>Account Title: Muhammad Younas
+                                            <br>Account Email: hm.younas22@gmail.com
+
+                                            <br><br>
+                                            <b>2) UBL BANK</b>
+
+                                            <br>Account Title: Muhammad Younas
+                                            <br>Account No: 1097263183584
+                                            <br>IBAN No: PK34UNIL0109000263183584
+
+                                            <br><br>
+                                            <b>3) EASYPAISA</b>
+
+                                            <br>Account Title: Muhammad Younas
+                                            <br>Account No: +92 317 4340 853
+
+                                            <br><br>
+                                            <b>4) JAZZCASH</b>
+
+                                            <br>Account Title: Muhammad Yousaf
+                                            <br>Account No: +92 304 7222 723
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="faq">
+                                    <input type="checkbox" id="question1" name="q" class="questions">
+                                    <div class="plus">+</div>
+                                    <label for="question1" class="question">
+                                        Can I purchase physical copies of books from an e-book store?
+                                    </label>
+                                    <div class="answers">
+                                        <p class="text-white">No, We are only offer electronic versions of books that
+                                            can be downloaded and read on electronic devices such as smartphones,
+                                            tablets, and e-readers.</p>
+
+                                    </div>
+                                </div>
+                                <div class="faq">
+                                    <input type="checkbox" id="question11" name="q" class="questions">
+                                    <div class="plus">+</div>
+                                    <label for="question11" class="question">
+                                        Do I need a special device to read these e-books?
+                                    </label>
+                                    <div class="answers">
+                                        <p class="text-white">No, you can read e-books on a variety of devices such as
+                                            smartphones, tablets, and e-readers also computer or laptop.</p>
+
+                                    </div>
+                                </div>
+                                <div class="faq">
+                                    <input type="checkbox" id="question2" name="q" class="questions">
+                                    <div class="plus">+</div>
+                                    <label for="question2" class="question">
+                                        Can I purchase "e-Resources" series of books from any e-book store?
+                                    </label>
+                                    <div class="answers">
+                                        <p class="text-white">"e-Resources" series of books may not be available for
+                                            purchase on all e-book stores. It is important to check the availability of
+                                            a specific e-book on the e-book store you are using before making a
+                                            purchase.</p>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <header class="header">
-            <div class="navbar-area">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-12">
-                            <nav class="navbar navbar-expand-lg">
-                                <a class="navbar-brand" href="index.html">
-                                    <img src="assets/images/logo/logo.svg" alt="Logo" />
-                                </a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                    <div class="ms-auto">
-                                        <ul id="nav" class="navbar-nav ms-auto">
-                                            <li class="nav-item">
-                                                <a class="page-scroll active" href="#home">Home</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="#testimonials">Testimonials</a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="#books">Books</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="page-scroll" href="#faq">FAQ</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="header-btn">
-                                    <a href="#call" class="main-btn btn-hover">Call: +92 846823648</a>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section id="home" class="book-hero-section">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-10">
-                        <div class="hero-content">
-                            <h1 style="font-size: 35px;">Transform Your Digital Career with Our E-Book and Notion Notes Library</h1>
-                            <p>Our resources cover topics such as social media growth, marketing, SEO, and web development, providing you with the knowledge and tools you need to excel in your career. Start Your Digital Journey Today</p>
-                            <a href="#0" class="main-btn btn-hover bg-danger text-white">Buy Now</a>
-                        </div>
-                    </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 offset-xxl-1">
-                        <div class="hero-image text-center text-lg-start">
-                            <img src="assets/images/hero/New Project (2).png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-<!-- Testimonials -->
-        <section id="testimonials" class="feature-section pb-5">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11">
-                        <div class="section-title text-center mb-4">
-                            <h2 class="text-white">Satisfied Users</h2>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row text-center">
-                    <div class="col-lg-8 col-md-8 offset-lg-2 offset-md-2">
-                        <p class="mb-5 text-white">Find out Why Our Customers Keep Coming Back: Read Their Testimonials</p>
-                    </div>
-                </div>
-
-
-                <div class="row text-center">
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"I highly recommend the '100 Resources for Web Designers' e-book by Younas Mahmood. It's an invaluable resource for anyone in the web design field."</p>
-                                <h4 class="mt-3">Sarah<p>Web Designer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star text-warning"></i>
-                                </div>
-                                <p class="mt-3">"The '100 Resources for Web Developers' e-book by Younas Mahmood has been a game-changer for me. It's packed with useful tools and resources that have helped me improve my skills and efficiency as a web developer."</p>
-                                <h4 class="mt-3">Shahid<p>Web Developer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"Whether you're a beginner or an experienced professional, the '100 Resources for Everyone' e-book is a must-have. It covers a wide range of topics and provides valuable resources for a variety of purposes."</p>
-                                <h4 class="mt-3">Amjid<p>Freelancer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"As someone who's always looking for remote work opportunities, the '100 Resources for Remote Jobs' e-book by Younas Mahmood has been incredibly helpful. It's given me the tools and resources I need to find and apply to remote jobs with confidence." </p>
-                                <h4 class="mt-3">Sam<p>Freelancer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"If you're a JS developer, you need the '100 Resources for JS Developers' e-book in your library. It's full of useful tools and resources that will help you improve your skills and stay up-to-date with the latest trends in the field." </p>
-                                <h4 class="mt-3">Dave<p>JS Developer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"The '100 Resources for Free APIs' e-book by Younas Mahmood is an absolute must-have for developers. It features a wide range of APIs that are available for free, as well as information on how to use them and the limitations of each API."</p>
-                                <h4 class="mt-3">Smith<p>Developer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star text-warning"></i>
-                                </div>
-                                <p class="mt-3">"I've found the '100 Resources' series of e-books by Younas Mahmood to be an invaluable resource for my professional development. Whether I'm looking to improve my web design skills, find remote work, or access free APIs, these e-books have something for everyone." </p>
-                                <h4 class="mt-3">Tom<p>Professional</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"The '100 Resources for JS Developers' book by Younas Mahmood is a must-have for any JavaScript developer. It is filled with useful resources and information on the latest trends in the field."</p>
-                                <h4 class="mt-3">Rachel<p>JS developer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"The '100 Resources for Web Designers' book by Younas Mahmood is a game changer for me. It has helped me improve my skills and stay up-to-date with the latest trends in web design." </p>
-                                <h4 class="mt-3">Shakeel<p>web designer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"I highly recommend the '100 Resources for Web Developers' book by Younas Mahmood to any developer looking to enhance their skills and knowledge. It has been an invaluable resource for me."</p>
-                                <h4 class="mt-3">John<p>web developer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                </div>
-                                <p class="mt-3">"As a student, I found the '100 Resources for Everyone' book by Younas Mahmood to be extremely helpful in learning about various topics and finding useful resources online.</p>
-                                <h4 class="mt-3">Siddique<p>Student</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4">
-                        <div class="single-feature">
-                            <div class="feature-content bg-white p-2">
-                                <div class="p-2">
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star-filled text-warning"></i>
-                                    <i class="lni lni-star text-warning"></i>
-                                </div>
-                                <p class="mt-3">"The '100 Resources for Remote Jobs' book by Younas Mahmood has been a lifesaver for me. It has helped me find numerous remote job opportunities and provided valuable tips for succeeding in a remote work environment."</p>
-                                <h4 class="mt-3">Alex<p>Freelancer</p></h4>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-<!-- Book list -->
-        <section id="books" class="team-section text-white">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11">
-                        <div class="section-title text-center mb-60">
-                            <h2>e-Resources</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-md-8 offset-lg-2 offset-md-2 text-center">
-                        <p class="mb-5 text-white">Take the Next Step in Your Professional Growth with Our E-book</p>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                  <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="single-team">
-                            <div class="card text-center">
-                                <img class="card-img-top" src="assets/images/books/Ultimate Guide Ebook Cover.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h4 class="card-title text-dark">Become A Web Designers</h4>
-                                    <a href="#" class="btn btn-dark text-white mt-3 bg-danger" style="border: none; border-radius: 1.25rem !important;">BuyNow</a>
-
-                                    <a href="details.html" class="btn btn-dark text-white mt-3" style="border: none; border-radius: 1.25rem !important; background-color: black;">Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-        </section>
-
-
-<!-- FAQ -->
-        <section id="faq" class="feature-section text-white">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-11">
-                        <div class="section-title text-center">
-                            <h2>FAQ</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-md-8 offset-lg-2 offset-md-2">
-                        <div class="single-feature">
-                            <div class="feature-content">
-                                <div class="mt-5">
-                            
-                            <!-- __________________________ SECTIONS ___________________________ -->
-                            <h5 class="text-center_ mb-4 mt-4">How to get, Payment options, PDF Books or hard Copy and much more.</h5>
-                            <div class="faq">
-                                <input type="checkbox" id="question9" name="q"  class="questions">
-                                <div class="plus">+</div>
-                                <label for="question9" class="question">
-                                    How do I get an e-book?
-                                </label>
-                                <div class="answers">
-                                    <p class="text-white">There are Two ways to get an e-book:
-                                        <br>
-                                        <b>1) You can create account and order any book which you want.</b>
-                                        
-                                        <br>Step 1: Create account
-                                        <br>Step 2: Select books for enable to download
-                                        <br>Step 3: Make payment and get screenshot
-                                        <br>Step 4: Upload the Payment screenshot and wait 30 minutes till enable to download option on the website for you.
-
-                                        <br><br>
-                                        <b>2) You can get directly through email or whatsapp message.</b>
-                                        
-                                        <br>Step 1: Make payment and get screenshot
-                                        <br>Step 2: Send books name and payment screenshot via whatsapp or email
-                                        <br>Step 3: Wait 30 minutes at least! you will get team response
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                            <div class="faq">
-                                <input type="checkbox" id="question10" name="q"  class="questions">
-                                <div class="plus">+</div>
-                                <label for="question10" class="question">
-                                    Payment options?
-                                </label>
-                                <div class="answers">
-                                    <p class="text-white">There are 4 Payment Option:
-                                        <br>
-                                        <b>1) PAYONEER</b>
-                                        
-                                        <br>Account Title: Muhammad Younas
-                                        <br>Account Email: hm.younas22@gmail.com
-
-                                        <br><br>
-                                        <b>2) UBL BANK</b>
-                                        
-                                        <br>Account Title: Muhammad Younas
-                                        <br>Account No: 1097263183584
-                                        <br>IBAN No: PK34UNIL0109000263183584
-
-                                        <br><br>
-                                        <b>3) EASYPAISA</b>
-                                        
-                                        <br>Account Title: Muhammad Younas
-                                        <br>Account No: +92 317 4340 853
-
-                                        <br><br>
-                                        <b>4) JAZZCASH</b>
-                                        
-                                        <br>Account Title: Muhammad Yousaf
-                                        <br>Account No: +92 304 7222 723
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                            <div class="faq">
-                                <input type="checkbox" id="question1" name="q"  class="questions">
-                                <div class="plus">+</div>
-                                <label for="question1" class="question">
-                                    Can I purchase physical copies of books from an e-book store?
-                                </label>
-                                <div class="answers">
-                                    <p class="text-white">No, We are only offer electronic versions of books that can be downloaded and read on electronic devices such as smartphones, tablets, and e-readers.</p>
-                                    
-                                </div>
-                            </div>
-                            <div class="faq">
-                                <input type="checkbox" id="question11" name="q"  class="questions">
-                                <div class="plus">+</div>
-                                <label for="question11" class="question">
-                                    Do I need a special device to read these e-books?
-                                </label>
-                                <div class="answers">
-                                    <p class="text-white">No, you can read e-books on a variety of devices such as smartphones, tablets, and e-readers also  computer or laptop.</p>
-                                    
-                                </div>
-                            </div>
-                            <div class="faq">
-                                <input type="checkbox" id="question2" name="q"  class="questions">
-                                <div class="plus">+</div>
-                                <label for="question2" class="question">
-                                    Can I purchase "e-Resources" series of books from any e-book store?
-                                </label>
-                                <div class="answers">
-                                    <p class="text-white">"e-Resources" series of books may not be available for purchase on all e-book stores. It is important to check the availability of a specific e-book on the e-book store you are using before making a purchase.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    </section>
 
 
 
 
-        <footer class="book-footer" id="call">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-12 col-lg-12">
-                        <div class="section-title text-center">
-                            <h2>Contact Us</h2>
-                            <p>Get in touch and learn more about "e-Resources"</p>
-                            <!-- <div class="footer-social">
+    <footer class="book-footer" id="call">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-title text-center">
+                        <h2>Contact Us</h2>
+                        <p>Get in touch and learn more about "e-Resources"</p>
+                        <!-- <div class="footer-social">
                                 <ul class="">
                                     <li><a href="#0"><i class="lni lni-facebook"></i></a></li>
                                     <li><a href="#0"><i class="lni lni-linkedin"></i></a></li>
@@ -598,56 +936,57 @@
                                     <li><a href="#0"><i class="lni lni-twitter"></i></a></li>
                                 </ul>
                             </div> -->
-                            <div class="row mt-5">
-                                <div class="col-md-4">
-                                    <div class="dbox w-100 text-center">
-                                        <div class="icon d-flex align-items-center justify-content-center">
-                                            <i class="lni lni-phone footer_logo"></i>
-                                        </div>
-                                        <div class="text">
-                                            <p><span>Call:</span> +92 346 0820 722</p>
-                                        </div>
+                        <div class="row mt-5">
+                            <div class="col-md-4">
+                                <div class="dbox w-100 text-center">
+                                    <div class="icon d-flex align-items-center justify-content-center">
+                                        <i class="lni lni-phone footer_logo"></i>
+                                    </div>
+                                    <div class="text">
+                                        <p><span>Call:</span> +92 346 0820 722</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="dbox w-100 text-center">
-                                        <a href="">
-                                            <div class="icon d-flex align-items-center justify-content-center">
+                            </div>
+                            <div class="col-md-4">
+                                <div class="dbox w-100 text-center">
+                                    <a href="">
+                                        <div class="icon d-flex align-items-center justify-content-center">
                                             <i class="lni lni-support footer_logo"></i>
                                         </div>
-                                        </a>
-                                        <div class="text">
-                                            <p><span>Help</span></p>
-                                        </div>
+                                    </a>
+                                    <div class="text">
+                                        <p><span>Help</span></p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="dbox w-100 text-center">
-                                        <a href="">
-                                            <div class="icon d-flex align-items-center justify-content-center">
+                            </div>
+                            <div class="col-md-4">
+                                <div class="dbox w-100 text-center">
+                                    <a href="">
+                                        <div class="icon d-flex align-items-center justify-content-center">
                                             <i class="lni lni-cart footer_logo"></i>
                                         </div>
-                                        </a>
-                                        <div class="text">
-                                            <p><span>Buy Now</span></p>
-                                        </div>
+                                    </a>
+                                    <div class="text">
+                                        <p><span>Buy Now</span></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                </div>
 
+                </div>
             </div>
-        </footer>
-        <a href="#" class="scroll-top btn-hover">
-            <i class="lni lni-chevron-up"></i>
-        </a>
-        <script src="assets/js/bootstrap-5.0.0-beta2.min.js"></script>
-        <script src="assets/js/tiny-slider.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/polyfill.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+
+        </div>
+    </footer>
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+    <script src="assets/js/bootstrap-5.0.0-beta2.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/polyfill.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
